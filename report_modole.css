@@ -1,0 +1,76 @@
+/* 主页面设置*/
+*{
+    font-size: 18px;
+    background-color: #fbfefe; /*#F5FFFA*/
+    font-family: 宋体;
+}
+body{
+    align-items: center;
+    background-color: #FBFFF0；
+    line-height: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* !important的作用是提高指定样式规则的应用优先权。*/
+/* <tt> 标签与 <code> 和 <kbd> 标签一样，<tt> 标签和必
+需的 </tt> 结束标签告诉浏览器，要把其中包含的文本显示
+为等宽字体。*/
+
+/* 标题 h1~h2*/
+/* ====================================================*/
+h1 {
+    font-size: 2.8em;
+    color: #008080;
+    text-align: center;
+    margin: 0em;
+    lin
+}
+h2 {
+    font-size: 2.4em;
+    color: #2F4F4F;
+    margin: 0.75em;
+    margin-left: 0em;
+}
+h3 {
+    font-size: 1.8em;
+    color: #338000;
+    margin: 0.5em;
+    margin-left: 0.25em;
+}
+h4 {
+    font-size: 1.6em;
+    margin: 0.75em;
+}
+h5 {
+    font-size: 1.2em;
+    margin: 0.75em;
+}
+h6 {
+    font-size: 1em;
+    font-family: 幼圆;
+    margin: 0.75em;
+
+}
+
+pre>code {
+    color: #2F4F4F;
+    font-size: 16px;
+}
+
+code {
+    font-size: 16px;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ul {
+    margin-left: 16px;
+}
+
+img {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
