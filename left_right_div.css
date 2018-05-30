@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: 0px solid red;
+}
+#main {
+    margin: 10px;
+    min-width: 500px;
+}
+#bd {
+    margin-top: 10px;
+}
+#content{
+    margin-left: 10px;
+}
+
+#header{
+    height: 80px;
+    background: #ffbbbb;
+}
+#bd{
+    min-height: 300px;
+}
+#sidebar, #content{
+    height: 100%;
+}
+#sidebar{
+    width: 200px;
+    display: inline-block;
+    float:left;
+    background: lightgreen;
+}
+#content{
+    position:relative;
+    margin-left: 210px;
+    background: lightblue;
+}
